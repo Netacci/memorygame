@@ -199,7 +199,11 @@ body {
 
 @media all and (max-width: 320px) {
   .card {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .stopwatch {
+    width: 44%;
   }
 }
