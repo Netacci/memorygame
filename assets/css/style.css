@@ -211,7 +211,7 @@ body {
 
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 374px) {
   .card {
     width: 2rem;
     height: 2rem;
