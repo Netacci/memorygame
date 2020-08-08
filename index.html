@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Optimized viewport for mobile -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
+    />
+    <!-- Website description -->
+    <meta name="description" content="game, memory, fun" />
+    <meta name="keywords" content="" />
+    <!-- Website title-->
+    <title>Color Memory Game</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="" />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS links-->
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body class="">
+    <!-- Header starts here -->
+
+    <!-- Preloader starts -->
+    <div id="preloader" class="preloader">
+      <div class="status">
+        <h1 class="game-title">
+          net <span class="inner-title text-uppercase mx-0">box</span>
+        </h1>
+        <button id="start-btn" class="btn start-btn mx-auto mt-5 mb-md-5">
+          Start
+        </button>
+      </div>
+    </div>
+    <!-- Preloader ends -->
+
+    <div class="wrapper">
+      <div
+        class="container d-flex justify-content-center flex-column text-center"
+      >
+        <div id="popup" class="pop-up text-center"></div>
+        <div class="content mt-md-2">
+          <div class="timer d-flex">
+            <img
+              src="./assets/images/timer.svg"
+              alt=""
+              class="mr-3 ml-5 timerimg"
+            />
+            <div class="stopwatch">00:00:00</div>
+          </div>
+
+          <div class="rows mt-5">
+            <div class="card red hide-color" data-color="red"></div>
+            <div class="card brown hide-color" data-color="brown"></div>
+            <div class="card green hide-color" data-color="green"></div>
+            <div class="card brown hide-color" data-color="brown"></div>
+          </div>
+          <div class="rows">
+            <div class="card blue hide-color" data-color="blue"></div>
+            <div class="card orange hide-color" data-color="orange"></div>
+            <div class="card red hide-color" data-color="red"></div>
+            <div class="card pink hide-color" data-color="pink"></div>
+          </div>
+          <div class="rows mb-5">
+            <div class="card orange hide-color" data-color="orange"></div>
+            <div class="card pink hide-color" data-color="pink"></div>
+            <div class="card green hide-color" data-color="green"></div>
+            <div class="card blue hide-color" data-color="blue"></div>
+          </div>
+        </div>
+        <button
+          id="restart-btn"
+          class="btn btn-primary mx-auto mt-3 mt-md-0 mb-md-5"
+        >
+          Restart
+        </button>
+      </div>
+    </div>
+
+    <!-- All javascript at the bottom of the page for fast page load -->
+    <!-- Jquery -->
+    <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- main JS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

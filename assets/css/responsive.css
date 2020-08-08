@@ -1,0 +1,209 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+
+@media all and (min-width:768px) {
+  .logo-img {
+    text-align: center;
+
+  }
+
+  hr {
+    width: 30%;
+  }
+
+
+
+  /* features */
+  .feature-title::after,
+  .screenshot-title::after {
+    left: 308px;
+  }
+
+  .img-flui {
+    width: 70%;
+  }
+
+  /* footer */
+  .logo-foot {
+    width: auto;
+  }
+
+  .media {
+    width: auto;
+  }
+
+
+
+}
+
+@media all and (min-width:992px) {
+  .main-head {
+    height: 100%;
+    background: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .head-title {
+    line-height: 66px;
+    font-size: 3rem;
+
+  }
+
+  .head-text {
+    line-height: 26px;
+    font-size: 0.875rem;
+  }
+
+  .launch-text {
+    font-size: 1.5rem;
+    line-height: 47px;
+  }
+
+  .launch-title {
+    font-size: 3rem;
+    line-height: 47px;
+  }
+
+  .head-img {
+    margin-top: 10rem;
+  }
+
+  .mockup {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
+
+  .sub-input {
+    height: 47px;
+
+  }
+
+  .btn {
+    height: 47px;
+    font-size: 1.125rem;
+
+  }
+
+  /* features begin here */
+  .feat {
+    max-width: 350px !important;
+    flex: auto !important;
+    border: 3px solid var(--grey)
+  }
+
+  .feature-title,
+  .screenshot-title {
+    font-size: 2.25rem;
+    line-height: 47px;
+    position: relative;
+  }
+
+  .feature-title::after {
+    top: 34px;
+    left: 302px;
+  }
+
+  .feat-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+  }
+
+  .f-d {
+    font-size: 1rem;
+  }
+
+  .mr-lgg-3 {
+    margin-right: 1rem;
+  }
+
+  .feat3 {
+    margin-top: 3rem;
+  }
+
+
+  .feat-text {
+    font-size: 0.875rem;
+    line-height: 22px;
+  }
+
+  .app-features {
+    margin-left: 12%;
+  }
+
+  /* screenshot */
+  .screenshot-title::after {
+    top: 34px;
+    left: 566px;
+  }
+
+  .img-flui {
+    width: 90%;
+  }
+
+  /* footer starts here */
+  .foot-title {
+    font-size: 3rem;
+    line-height: 63px;
+  }
+
+  .time-text {
+    font-size: 1.5rem;
+  }
+
+  .timer {
+    font-size: 3rem;
+  }
+
+  .top-scroll {
+    display: block;
+    transition: all .3s;
+    position: fixed;
+    pointer-events: none;
+    bottom: 50px;
+    left: 93%;
+    opacity: 0;
+  }
+
+  .top-scroll.activescroll {
+    bottom: 61px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .arrow {
+    animation: scrollup 1s linear 1s infinite;
+  }
+
+  @keyframes scrollup {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(0, 10px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+
+  }
+
+}
+
+@media all and (min-width:1200px) {
+  .feat3 {
+    margin-top: 0rem;
+  }
+
+  .app-features {
+    margin-left: auto;
+  }
+
+  .screenshot-title::after {
+    left: 743px;
+  }
+}
