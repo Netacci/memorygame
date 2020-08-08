@@ -53,7 +53,7 @@ img {
 .status {
 
   position: absolute;
-  left: 50%;
+  left: 38%;
   top: 50%;
   margin-left: -100px;
   margin-top: -117px;
@@ -74,9 +74,19 @@ img {
   font-weight: normal;
 }
 
-.start-btn {
-  width: 100%;
+.toplay {
+  font-family: var(--btn-font);
+  color: var(--white-color);
+  font-size: 1rem;
+  width: 80%;
+  margin: 0 auto;
+
 }
+
+.inner {
+  color: var(--border-color);
+}
+
 
 /* PRELOADER ENDS */
 body {
@@ -184,6 +194,10 @@ body {
 
   .stopwatch {
     width: 15%;
+  }
+
+  .toplay {
+    width: 100%;
   }
 }
 
