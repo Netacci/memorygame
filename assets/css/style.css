@@ -28,8 +28,8 @@ img {
 }
 
 .pop-up {
-  width: 30%;
-  margin: auto;
+  width: 70%;
+  margin: 0 auto;
   transition: all .3s linear;
   color: var(--bg-color);
   background: var(--white-color);
@@ -94,7 +94,7 @@ body {
   border: 6px solid #0133B6;
   border-radius: 15px;
   color: var(--bg-color);
-  width: 15%;
+  width: 30%;
   font-size: 1rem;
 }
 
@@ -132,10 +132,6 @@ body {
   cursor: pointer;
   transition: all .1s linear;
   border-radius: 15px 15px 30px 30px;
-}
-
-.card:hover {
-  box-shadow: inset 0px 0px 0px 1px var(--line-color);
 }
 
 .red {
@@ -180,6 +176,14 @@ body {
     margin: auto;
     margin-bottom: 0;
 
+  }
+
+  .pop-up {
+    width: 30%;
+  }
+
+  .stopwatch {
+    width: 15%;
   }
 }
 
